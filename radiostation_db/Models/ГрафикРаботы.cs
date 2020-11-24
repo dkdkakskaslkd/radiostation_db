@@ -5,7 +5,7 @@ namespace radiostation_db.Models
 {
     public partial class ГрафикРаботы
     {
-        public byte[] Дата { get; set; }
+        public DateTime Дата { get; set; }
         public long Время { get; set; }
         public byte[] КодСотрудника { get; set; }
         public byte[] КодЗаписи { get; set; }
